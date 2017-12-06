@@ -140,33 +140,53 @@
                     </div>
                     <div class="top-filter-size">
                         <h3>Size</h3>
-                            <div class="top-filter-size-flex">
-                                <div class="top-filter-size-flex-column">
-                                    <label for="size-xxs"><input type="checkbox" id="size-xxs" class="checkbox"><span class="box"></span>XXS</label>
-                                    <label for="size-l"><input type="checkbox" id="size-l" class="checkbox"><span class="box"></span>L</label>
-                                </div>
-                                <div class="top-filter-size-flex-column">
-                                    <label for="size-xs"><input type="checkbox" id="size-xs" class="checkbox"><span class="box"></span>XS</label>
-                                    <label for="size-xl"><input type="checkbox" id="size-xl" class="checkbox"><span class="box"></span>XL</label>
-                                </div>
-                                <div class="top-filter-size-flex-column">
-                                    <label for="size-s"><input type="checkbox" id="size-s" class="checkbox"><span class="box"></span>S</label>
-                                    <label for="size-xxl"><input type="checkbox" id="size-xxl" class="checkbox"><span class="box"></span>XXL</label>
-                                </div>
-                                <div class="top-filter-size-flex-column">
-                                    <label for="size-m"><input type="checkbox" id="size-m" class="checkbox"><span class="box"></span>M</label>
-                                </div>
+                        <div class="top-filter-size-flex">
+                            <div class="top-filter-size-flex-column">
+                                <label for="size-xxs"><input type="checkbox" id="size-xxs" class="checkbox"><span
+                                        class="box"></span>XXS</label>
+                                <label for="size-l"><input type="checkbox" id="size-l" class="checkbox"><span
+                                        class="box"></span>L</label>
                             </div>
+                            <div class="top-filter-size-flex-column">
+                                <label for="size-xs"><input type="checkbox" id="size-xs" class="checkbox"><span
+                                        class="box"></span>XS</label>
+                                <label for="size-xl"><input type="checkbox" id="size-xl" class="checkbox"><span
+                                        class="box"></span>XL</label>
+                            </div>
+                            <div class="top-filter-size-flex-column">
+                                <label for="size-s"><input type="checkbox" id="size-s" class="checkbox"><span
+                                        class="box"></span>S</label>
+                                <label for="size-xxl"><input type="checkbox" id="size-xxl" class="checkbox"><span
+                                        class="box"></span>XXL</label>
+                            </div>
+                            <div class="top-filter-size-flex-column">
+                                <label for="size-m"><input type="checkbox" id="size-m" class="checkbox"><span
+                                        class="box"></span>M</label>
+                            </div>
+                        </div>
                     </div>
                     <div class="top-filter-price">
                         <h3>Price</h3>
-                        <label for="amount"><input type="range" min="0" max="400" value="52" class="range" id="amount" multiple></label>
+                        <label for="amount"><input type="range" min="0" max="400" value="52" class="range" id="amount"
+                                                   multiple></label>
                         <div class="range-numbers">
                             <span>$<output id="out_min">52</output></span>
                             <span class="out_max">$<output id="out_max">400</output></span>
 
                         </div>
+                    </div>
                 </div>
+                <div class="sort">
+                    <div class="sort__name">
+                        <span class="sort__name-1">Sort By</span>
+                        <select size="1" name="hero[]">
+                            <option selected value="Name">Name</option>
+                            <option value="Price">Price</option>
+                            <option value="Othe">Othe</option>
+                        </select>
+                    </div>
+
+                    <div class="sort__show"></div>
                 </div>
                 <div class="magazin-list">
                     <div class="magazin-list-flex-2">
@@ -231,9 +251,9 @@
                     </a>
                     </div>
 
+                </div>
+            </div>
         </div>
-    </div>
-
 
 </main>
 <section class="woman-black">

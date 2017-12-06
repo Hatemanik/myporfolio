@@ -98,7 +98,7 @@ body {
 /*-----------------------------------------*/
 
 .product-category-inner-right {
-  padding: 0 50px;
+  padding: 0 0 0 50px;
 
 }
 
@@ -256,10 +256,32 @@ padding-right: 10px;
 .out_max{
   float: right;
 }
-
-.range-numbers span #out_max{
-  float: right;
+/*------------------------------------------*/
+.sort{
+  height: 50px;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  margin-top: 22px;
+  margin-left: 28px;
 }
+.sort__name{
+  height: 30px;
+  border: 1px solid #ebebeb;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.sort__name-1{
+  height: 100%;
+  border-right: 1px solid #ebebeb;
+}
+.sort__name select{
+  height: 100%;
+  border:0;
+}
+/*-------------------------------------------*/
 .magazin-list-flex-2 {
   display: flex;
   align-items: center;
