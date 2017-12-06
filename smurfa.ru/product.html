@@ -153,14 +153,21 @@
                                     <label for="size-s"><input type="checkbox" id="size-s" class="checkbox"><span class="box"></span>S</label>
                                     <label for="size-xxl"><input type="checkbox" id="size-xxl" class="checkbox"><span class="box"></span>XXL</label>
                                 </div>
-                                <div class="top-filter-size-flex-3">
+                                <div class="top-filter-size-flex-column">
                                     <label for="size-m"><input type="checkbox" id="size-m" class="checkbox"><span class="box"></span>M</label>
                                 </div>
                             </div>
                     </div>
-                    <div class="top-filter-price">Price</div>
-                </div>
+                    <div class="top-filter-price">
+                        <h3>Price</h3>
+                        <label for="amount"><input type="range" min="0" max="400" value="52" class="range" id="amount" multiple></label>
+                        <div class="range-numbers">
+                            <span>$<output id="out_min">52</output></span>
+                            <span class="out_max">$<output id="out_max">400</output></span>
 
+                        </div>
+                </div>
+                </div>
                 <div class="magazin-list">
                     <div class="magazin-list-flex-2">
                         <div class="magazin-item magazin-item_1">
@@ -223,8 +230,7 @@
                         <span>Browse All Product</span><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                     </a>
                     </div>
-                </div>
-            </div>
+
         </div>
     </div>
 

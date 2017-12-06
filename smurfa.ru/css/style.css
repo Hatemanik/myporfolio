@@ -422,7 +422,7 @@ summary > span {
   border-right: 1px solid #dfdfdf; }
 
 .top-filter-size {
-  margin: 6px 155px 0 0; }
+  margin: 6px -30px 0 0; }
 
 .top-filter-size-flex {
   display: flex;
@@ -433,13 +433,35 @@ summary > span {
   justify-content: space-between;
   flex-direction: column; }
 
-.top-filter-price {
-  margin: 6px 175px 0 0; }
+.top-filter-size-flex-column label {
+  padding: 0 10px 0 0;
+  margin-bottom: 13px; }
 
-.top-filter__choose {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
+.box:active {
+  font-weight: 700;
+  background: #f16d7f; }
+
+.top-filter-size-flex-column label span {
+  padding-right: 10px; }
+
+/*--------------------------*/
+.top-filter-price h3 {
+  font-size: 14px;
+  font-family: "Lato-Bold", sans-serif;
+  font-weight: 700;
+  padding-bottom: 12px; }
+
+.top-filter-price {
+  margin: 6px 85px 0 0; }
+
+.span #out_min {
+  float: left; }
+
+.out_max {
+  float: right; }
+
+.range-numbers span #out_max {
+  float: right; }
 
 .magazin-list-flex-2 {
   display: flex;
